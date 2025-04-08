@@ -14,7 +14,8 @@ dependencies:
     sdk: flutter
   # This is here just to ensure compatibility between objectbox-dart code and the libraries used
   # You should still depend on objectbox directly in your Flutter application.
-  objectbox: 4.1.0
+  objectbox:
+    path: ../objectbox
   path_provider: ^2.0.0
 
 dev_dependencies:
